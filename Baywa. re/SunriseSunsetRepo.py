@@ -49,6 +49,5 @@ df = df.withColumn("Sunset", df["SunriseSunset"].getField("Sunset"))
 # Drop the intermediate struct column if needed
 df = df.drop("SunriseSunset")
 
-# Show the resulting DataFrame
-df.show(truncate=False)
+
 
