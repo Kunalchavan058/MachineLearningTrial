@@ -83,6 +83,10 @@ display(airbnb_df)
 
 # COMMAND ----------
 
+display(airbnb_df)
+
+# COMMAND ----------
+
 # MAGIC %md <i18n value="2d9d25d2-df88-44a8-93eb-cfebfd8ca022"/>
 # MAGIC
 # MAGIC
